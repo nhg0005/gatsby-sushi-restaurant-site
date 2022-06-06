@@ -1,0 +1,112 @@
+/* Section 1 */
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 60px;
+  background-color: #faebd7;
+  font-family: "Reggae One", cursive;
+}
+
+.section-1 div p {
+  font-family: "Reggae One", cursive;
+  font-size: 17px;
+}
+
+/* .hero-text {
+  font-family: "Reggae One", cursive;
+  font-size: 17px;
+} */
+
+/* Section 2 */
+.section-2 {
+  background-image: url(../images/section2background.jpg);
+  background-color: #cccccc;
+
+  /* Parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+
+  /* Text Color  */
+  color: rgb(255, 255, 255);
+
+  /* Display  */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 200px;
+  gap: 30px;
+}
+
+.section-2 h2,
+.section-2 p {
+  font-family: "Reggae One", Helvetica, Arial, sans-serif;
+  text-align: center;
+  /* mix-blend-mode: screen; */
+}
+
+.section-2 p {
+  font-size: 17px;
+}
+
+.section-2 button {
+  width: 125px;
+  height: 50px;
+
+  border-style: none;
+  border-radius: 5px;
+
+  /* background-color: rgb(77, 31, 31); */
+  color: white;
+  /* font-size: 14px; */
+
+  padding: 2px;
+}
+
+.section-3 {
+  background-color: antiquewhite;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+
+  padding: 70px;
+  gap: 30px;
+}
+
+.section-3 h2 {
+  font-family: "Reggae One", cursive;
+  font-size: 32px;
+}
+
+.section-3 button {
+  width: 100px;
+  height: 40px;
+
+  border-style: none;
+  border-radius: 5px;
+
+  /* background-color: rgb(77, 31, 31); */
+  color: white;
+  /* font-size: 14px; */
+
+  padding: 2px;
+}
+
+.sushi-1 {
+  /* height: 50%; */
+  width: 80%;
+}
+
+.link-style-index {
+  text-decoration: none;
+  color: white;
+}

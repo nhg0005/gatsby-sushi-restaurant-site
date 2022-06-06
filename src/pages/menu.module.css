@@ -1,0 +1,32 @@
+.menu,
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu {
+  background-color: #faebd7;
+}
+
+.menu-content {
+  background-color: #ecdcba;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.menu-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.menu-content p {
+  padding: 0 30px;
+}
+
+/* hr {
+  width: 300px;
+} */
